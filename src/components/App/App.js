@@ -1,13 +1,12 @@
 import React from 'react';
 import styles from './App.scss';
 import List from '../List/List.js';
-import Hero from '../Hero/Hero.js';
 import {pageContents, listData} from '../../data/dataStore';
 
 
 class App extends React.Component {
   render() {
-    console.log(listData)
+    console.log(listData);
     return (
       <main className={styles.component}>
         <h1 className={styles.title}>{pageContents.title}</h1>
@@ -16,7 +15,7 @@ class App extends React.Component {
         <List {...listData} />
       </main>
 
-    )
+    );
   }
 }
 

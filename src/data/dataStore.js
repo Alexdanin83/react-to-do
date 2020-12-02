@@ -14,6 +14,18 @@ export const settings = {
   defaultColumnIcon: 'list-alt',
 };
 
+export const pages = {
+  image: 'align-justify',
+  info: {
+    titlePage: 'Info',
+    descriptionPage: 'Interesting things I want to check out!',
+  },
+  faq: {
+    titlePage: 'FAQ',
+    descriptionPage: 'Interesting things I want to check out!',
+  },
+};
+
 export const pageContents = {
   title: 'My first React app',
   subtitle: 'A simple to-do app, with lists, columns and cards',

@@ -87,9 +87,21 @@ export const listData = {
 const lists = [
   {
     id: 'list-1',
-    title: 'Things to do <sup>soon!</sup>',
+    title: 'Page 1 <sup>soon!</sup>',
     description: 'Interesting things I want to check out!',
     image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  },
+  {
+    id: 'list-2',
+    title: 'Page 2 <sup>soon!</sup>',
+    description: 'Nowością jest tutaj użycie :id w ścieżce strony.',
+    image: 'https://i.postimg.cc/PJScrTwb/pizza-2.jpg',
+  },
+  {
+    id: 'list-3',
+    title: 'Page 3 <sup>soon!</sup>',
+    description: 'Nie zapomnij dodać też importu List z pliku jego kontenera',
+    image: 'https://i.postimg.cc/PJScrTwb/pizza-4.jpg',
   },
 ];
 
